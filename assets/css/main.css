@@ -2294,7 +2294,8 @@ input[type="radio"] + label:before {
 
 .image img {
   display: block;
-  height: 48vh;
+  top: 0;
+  bottom: 0;
 }
 
 .image.left,
@@ -3339,11 +3340,14 @@ body.is-preload #banner footer {
 }
 
 #main .spotlight .image {
-  width: 40%;
+  position: relative;
+  width: 100%;
 }
 
 #main .spotlight .image img {
-  height: 48vh;
+  /* height: 50vh; */
+  top: 0;
+  bottom: 0;
   width: 100%;
 }
 
